@@ -1,51 +1,42 @@
-import './Getstarted.scss';
-import { useEffect, useState } from "react";
-import { useParams } from 'react-router-dom';
-import coffee_buddy from '../../assets/logos/home-page/Coffee_Buddy_logo.png';
-
-import axios from 'axios';
+import './GetStarted.scss';
+import coffee_buddy from '../../assets/logos/home-page/coffee_buddy.svg';
+import brewing_pot from '../../assets/logos/home-page/coffee-brewing-pot.svg';
+import coffee_mug from '../../assets/logos/home-page/coffee-mug.svg';
+import coffee_togo from '../../assets/logos/home-page/coffee-togo-cup.svg';
+import left_beans from '../../assets/logos/home-page/left-coffee-beans.svg';
+import right_beans from '../../assets/logos/home-page/right-coffee-beans.svg';
 
 
 function GetStarted() {
-    // const { idFromParams } = useParams();
-    // const [videos, setVideos] = useState([])
-
-    // let defaultVideoId = null;
-
-    // if (videos.length > 0) {
-    //     defaultVideoId = videos[0].id;
-    // }
-
-    // let videoIdToDisplay = idFromParams || defaultVideoId;
-
-    // const filteredVideos = videos.filter(video => video.id !== videoIdToDisplay)
-
-    // useEffect(() => {
-    //     axios.get('http://localhost:8083/videos')
-    //         .then(response => {
-    //             setVideos(response.data);
-    //         })
-    //         .catch(err =>console.log(err));
-    // }, [])
-
-
     return (
-        <div className="App">
-            <VideoHero selectedVideoId={videoIdToDisplay} videos={videos} />
-            <section className="main">
-                <section className="main__main">
-                    <div className="main__description">
-                        <VideoContent selectedVideoId={videoIdToDisplay} />
-                    </div>
-                </section>
-                <section className="main__nav">
-                    <div className="main__nav-bar">
-                        <VideoNav videos={filteredVideos} />
-                    </div>
-                </section>
-            </section>
+        <div className="start">
+            <div className="start__top-row">
+                <img className="mug" src={coffee_mug} />
+            </div>
+            <div className="start__middle-row">
+                <img className="togo-mug" src={coffee_togo} />
+                <img className="buddy-logo" src={coffee_buddy} />
+                <img className="right-beans" src={right_beans} />
+            </div>
+            <div className="start__message">
+                <div className="start__message-welcome">
+                    <h1>WELCOME!</h1>
+                </div>
+                <div className="start__message-intro">
+                    <p>I am your best buddy in the coffee journey you are about to embark on.</p>
+                </div>
+                <div className="start__message-button">
+                    <button>
+                        <p>GET STARTED</p>
+                    </button>
+                </div>
+            </div>
+            <div className="start__bottom-row">
+                <img className="left-beans" src={left_beans} />
+                <img className="brewing-pot" src={brewing_pot} />
+            </div>
         </div>
     );
 }
 
-export default Getstarted;
+export default GetStarted;
