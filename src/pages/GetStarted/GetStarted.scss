@@ -1,0 +1,94 @@
+@use "../../styles/globas.scss" as *;
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+body {
+    background-color: $yellow-background;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.start {
+    &__top-row {
+        & img {
+            width: 35%;
+        }
+
+    }
+
+    &__middle-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0 30px 0;
+
+        & .togo-mug {
+            position: relative;
+            top: 30px;
+            width: 18%;
+
+        }
+
+        & .right-beans {
+            bottom: 30px;
+            width: 20%;
+            position: relative;
+        }
+    }
+
+    &__message {
+        display: flex;
+        flex-direction: column;
+        padding: 22px 0;
+
+        &-welcome {
+            & h1 {
+                font-weight: 400;
+                color: $yellow-title;
+                text-decoration: none;
+                font-size: 41px;
+            }
+
+            padding:22px;
+        }
+
+        &-intro {
+            padding-bottom: 20px;
+            margin: 0 10px;
+            color: $green-header;
+            font-size: 18px;
+        }
+
+        &-button {
+            & button {
+                background-color: $green-button;
+                width: 60%;
+                border-radius: 9px;
+                border: 1px solid $green-button;
+
+                & p {
+                    padding: 10px;
+                    color: $white-body;
+                    font-size: 17px;
+                }
+            }
+
+        }
+    }
+
+
+    &__bottom-row {
+
+        & .left-beans {
+            position: relative;
+            top: 50px;
+            right: 25px;
+        }
+
+        & .brewing-pot {
+            position: relative;
+            top: 50px;
+            left: 25px;
+        }
+    }
+}
