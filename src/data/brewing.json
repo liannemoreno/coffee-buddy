@@ -1,7 +1,7 @@
 [
     {
         "id": 264,
-        "image": "./public/prepare/Chemex.svg",
+        "image": "./public/images/Chemex.svg",
         "brewing_technique ": "Chemex",
         "ground_size ": "Medium",
         "coffee_amount ": "10 g per 6oz of water",
@@ -12,7 +12,7 @@
     },
     {
         "id": 258,
-        "image": "./public/prepare/Espresso-machine.svg",
+        "image": "./public/images/Espresso-machine.svg",
         "brewing_technique": "Espresso",
         "ground_size ": "Fine",
         "coffee_amount ": "8-10 g",
@@ -23,7 +23,7 @@
     },
     {
         "id": 278,
-        "image": "./public/prepare/French-press.svg",
+        "image": "./public/images/French-press.svg",
         "brewing_technique ": "French Press",
         "ground_size ": "Coarse",
         "coffee_amount ": "8 g per cup of water",
@@ -32,7 +32,7 @@
     },
     {
         "id": 212,
-        "image": "./public/prepare/Mocha-pot.svg",
+        "image": "./public/images/Mocha-pot.svg",
         "brewing_technique ": "Moka Pot",
         "ground_size ": "Medium",
         "coffee_amount ": "20 g per cup of water",
@@ -41,7 +41,7 @@
     },
     {
         "id": 223,
-        "image": "./public/prepare/Pour-over.svg",
+        "image": "./public/images/Pour-over.svg",
         "brewing_technique ": "Pour Over",
         "ground_size ": "Medium",
         "coffee_amount ": "10 g per 6oz of water",
@@ -50,7 +50,7 @@
     },
     {
         "id": 244,
-        "image": "./public/prepare/Cezve.svg",
+        "image": "./public/images/Cezve.svg",
         "brewing_technique ": "Turkish Cezve",
         "ground_size ": "Extra Fine",
         "coffee_amount ": "30 g",
@@ -59,7 +59,7 @@
     },
     {
         "id": 265,
-        "image":"../prepare/Aeropress.svg",
+        "image":"./images/Aeropress.svg",
         "brewing_technique ": "Aeropress",
         "ground_size ": "Coarse or Medium",
         "coffee_amount ": "15 g",
@@ -68,7 +68,7 @@
     },
     {
         "id": 228,
-        "image": "./public/prepare/Siphon.svg",
+        "image": "./public/images/Siphon.svg",
         "brewing_technique ": "Siphon",
         "ground_size ": "Medium",
         "coffee_amount ": "20-25 g",
