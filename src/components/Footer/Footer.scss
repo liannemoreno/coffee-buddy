@@ -1,6 +1,6 @@
-@use "../styles/globas.scss" as *;
-@use "../styles/mixins.scss" as *;
-@use "../styles/variables.scss" as *;
+@use "../../styles/global.scss" as *;
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
 
 .footer {
     border-top: solid 1.5px $rust-border;

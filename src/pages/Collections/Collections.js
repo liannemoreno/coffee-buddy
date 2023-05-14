@@ -1,13 +1,26 @@
 import React from 'react';
-import collections from '../../data/collections.json';
-import {useState} from "react";
+import Footer from '../../components/Footer/Footer.js';
 
-const Collections = () => {
-const [selectedCollection, setSelectedCollection] = useState(collections[0])
- return (
-        <section className="collections">
-            {/* <img className="nav__item-image" src={video.image} alt="up next video" onClick={() => clickHandler(video.id)}/> */}
+
+function Collections({ collections }) {
+    // const { collection_name, collection_description, user } = collections;
+
+    return (
+       <>
+       <section className="collections">
+            <div>
+                {collections.map(collection => (
+                    <div key={collection.id}>
+                        <h2>{collection.collection_name}</h2>
+                        <p>{collection.collection_description}</p>
+                        <p>{collection.user}</p>
+                        <p>{new Date().toLocaleString("en-US", {dateStyle:'short'})}</p>
+                    </div>
+                ))}
+            </div>
         </section>
+        <Footer />
+        </>
     );
 }
 

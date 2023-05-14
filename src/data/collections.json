@@ -2,11 +2,11 @@
     {
         "id": 101,
         "collection_name": "Dunkin Donuts",
-        "collection_description": "",
+        "collection_description": "Dunkin's best flavors 2023",
         "user": "The Amateour Connoisseur",
         "coffees": [
             {
-                "id ": 122,
+                "id": 122,
                 "brand_name": "Dunkin Donuts",
                 "image": "./public/images/dunkin.jpeg",
                 "blend_name": "Breakfast Blend",
@@ -26,7 +26,7 @@
                 "organic_certification": false
             },
             {
-                "id ": 151,
+                "id": 151,
                 "brand_name": "Dunkin Donuts",
                 "image": "./public/images/dunkin.jpeg",
                 "blend_name": "Single Origin",
@@ -42,7 +42,7 @@
                 "organic_certification": false
             },
             {
-                "id ": 109,
+                "id": 109,
                 "brand_name": "Dunkin Donuts",
                 "image": "./public/images/dunkin.jpeg",
                 "blend_name": "Single Origin",
@@ -63,11 +63,11 @@
     {
         "id": 102,
         "collection_name": "Peete's",
-        "collection_description": "",
+        "collection_description": "Peete's best flavors 2023",
         "user": "The Amateour Connoisseur",
         "coffees": [
             {
-                "id ": 176,
+                "id": 176,
                 "brand_name": "Peet's Coffee",
                 "image": "./public/images/peetes.jpeg",
                 "blend_name": "Select Blend",
@@ -87,7 +87,7 @@
                 "organic_certification": true
             },
             {
-                "id ": 144,
+                "id": 144,
                 "brand_name": "Peet's Coffee",
                 "image": "./public/images/peetes.jpeg",
                 "blend_name": "Specialty Blend",
@@ -108,7 +108,7 @@
                 "organic_certification": true
             },
             {
-                "id ": 187,
+                "id": 187,
                 "brand_name": "Peet's Coffee",
                 "image": "./public/images/peetes.jpeg",
                 "blend_name": "Specialty Blend",
@@ -128,7 +128,7 @@
                 "organic_certification": false
             },
             {
-                "id ": 184,
+                "id": 184,
                 "brand_name": "Peet's Coffee",
                 "image": "./public/images/peetes.jpeg",
                 "blend_name": "House Blend",
@@ -153,11 +153,11 @@
     {
         "id": 103,
         "collection_name": "Starbucks",
-        "collection_description": "",
+        "collection_description": "Starbucks's best flavors 2023",
         "user": "The Amateour Connoisseur",
         "coffees": [
             {
-                "id ": 151,
+                "id": 151,
                 "brand_name": "Starbucks",
                 "image": "./public/images/sbux.jpeg",
                 "blend_name": "Single Origin",
@@ -173,7 +173,7 @@
                 "organic_certification": true
             },
             {
-                "id ": 144,
+                "id": 144,
                 "brand_name": "Starbucks",
                 "image": "./public/images/sbux.jpeg",
                 "blend_name": "Specialty Blend",
@@ -189,7 +189,7 @@
                 "organic_certification": true
             },
             {
-                "id ": 110,
+                "id": 110,
                 "brand_name": "Starbucks",
                 "image": "./public/images/sbux.jpeg",
                 "blend_name": "Breakfast Blend",
@@ -209,7 +209,7 @@
                 "organic_certification": false
             },
             {
-                "id ": 166,
+                "id": 166,
                 "brand_name": "Starbucks",
                 "image": "./public/images/sbux.jpeg",
                 "blend_name": "Single Origin",
@@ -230,11 +230,11 @@
     {
         "id": 104,
         "collection_name": "La Vela",
-        "collection_description": "",
+        "collection_description": "La Vela's best blends and single origins 2023",
         "user": "The Amateour Connoisseur",
         "coffees": [
             {
-                "id ": 102,
+                "id": 102,
                 "brand_name": "La Vela Coffee",
                 "image": "./public/images/lavela.jpeg",
                 "blend_name": "Gold Blend",
@@ -259,7 +259,7 @@
                 "organic_certification": true
             },
             {
-                "id ": 188,
+                "id": 188,
                 "brand_name": "La Vela Coffee",
                 "image": "./public/images/lavela.jpeg",
                 "blend_name": " Select Specialty Blend",
@@ -281,7 +281,7 @@
                 "organic_certification": true
             },
             {
-                "id ": 140,
+                "id": 140,
                 "brand_name": "La Vela Coffee",
                 "image": "./public/images/lavela.jpeg",
                 "blend_name": "Single Origin",
@@ -297,7 +297,7 @@
                 "organic_certification": true
             },
             {
-                "id ": 137,
+                "id": 137,
                 "brand_name": "La Vela Coffee",
                 "image": "./public/images/lavela.jpeg",
                 "blend_name": "Single Origin",
@@ -314,7 +314,7 @@
                 "organic_certification": true
             },
             {
-                "id ": 182,
+                "id": 182,
                 "brand_name": "La Vela Coffee",
                 "image": "./public/images/lavela.jpeg",
                 "blend_name": "Single Origin",

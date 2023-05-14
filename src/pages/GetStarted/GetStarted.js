@@ -5,6 +5,7 @@ import coffee_mug from '../../assets/logos/home-page/coffee-mug.svg';
 import coffee_togo from '../../assets/logos/home-page/coffee-togo-cup.svg';
 import left_beans from '../../assets/logos/home-page/left-coffee-beans.svg';
 import right_beans from '../../assets/logos/home-page/right-coffee-beans.svg';
+import { Link } from "react-router-dom";
 
 
 function GetStarted() {
@@ -26,9 +27,11 @@ function GetStarted() {
                     <p>I am your best buddy in the coffee journey you are about to embark on.</p>
                 </div>
                 <div className="start__message-button">
-                    <button>
-                        <p>GET STARTED</p>
-                    </button>
+                    <Link className="start__message-button--link" to="/collections">
+                        <button>
+                            <p>GET STARTED</p>
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div className="start__bottom-row">

@@ -1,8 +1,8 @@
 import './Footer.scss';
-import collections from '../assets/logos/nav-bar/collections.svg';
-import home from '../assets/logos/nav-bar/home.svg';
-import mug from '../assets/logos/nav-bar/mug-nav.svg';
-import prep from '../assets/logos/nav-bar/prep.svg';
+import collections from '../../assets/logos/nav-bar/collections.svg';
+import home from '../../assets/logos/nav-bar/home.svg';
+import mug from '../../assets/logos/nav-bar/mug-nav.svg';
+import prep from '../../assets/logos/nav-bar/prep.svg';
 
 
 
