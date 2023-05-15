@@ -1,0 +1,31 @@
+@use "../../styles/global.scss" as *;
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.footer {
+    border-top: solid 1.5px $rust-border;
+
+    &__nav {
+        background-color: $light-yellow-background;
+        padding: 26.39px 0;
+        display: flex;
+        justify-content: space-evenly;
+
+        &--home {
+            width:9%;
+        }
+
+        &--mug {
+            width:9%;
+        }
+
+        &--collect {
+            width:16%;
+        }
+
+        &--prep {
+            width:11%;  
+        }
+    }
+
+}
