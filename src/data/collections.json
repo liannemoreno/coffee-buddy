@@ -12,7 +12,7 @@
                 "blend_name": "Breakfast Blend",
                 "roast_level": "Light",
                 "bean_type": "Arabica",
-                "origin_country": [
+                "origin_countries": [
                     "Colombia",
                     "Sumatra",
                     "Brazil"
@@ -32,9 +32,9 @@
                 "blend_name": "Single Origin",
                 "roast_level": "Medium",
                 "bean_type": "Arabica",
-                "origin_country": "Peru",
+                "origin_countries": "Peru",
                 "flavor_notes": [
-                    "caramel",
+                    "caramel " ,
                     "brown sugar"
                 ],
                 "price": 21.79,
@@ -48,7 +48,7 @@
                 "blend_name": "Single Origin",
                 "roast_level": "Dark",
                 "bean_type": "Robusta",
-                "origin_country": "Costa Rica",
+                "origin_countries": "Costa Rica",
                 "flavor_notes": [
                     "orange",
                     "red apple",
@@ -73,7 +73,7 @@
                 "blend_name": "Select Blend",
                 "roast_level": "Light",
                 "bean_type": "Robusta",
-                "origin_country": [
+                "origin_countries": [
                     "Colombia",
                     "Peru",
                     "Brazil"
@@ -93,7 +93,7 @@
                 "blend_name": "Specialty Blend",
                 "roast_level": "Medium",
                 "bean_type": "Robusta",
-                "origin_country": [
+                "origin_countries": [
                     "Peru",
                     "Honduras",
                     "Brazil"
@@ -114,7 +114,7 @@
                 "blend_name": "Specialty Blend",
                 "roast_level": "Dark",
                 "bean_type": "Robusta",
-                "origin_country": [
+                "origin_countries": [
                     "Colombia",
                     "Brazil",
                     "Peru"
@@ -134,7 +134,7 @@
                 "blend_name": "House Blend",
                 "roast_level": "Light",
                 "bean_type": "Arabica",
-                "origin_country": [
+                "origin_countries": [
                     "Colombia",
                     "Guatemala",
                     "Brazil",
@@ -163,7 +163,7 @@
                 "blend_name": "Single Origin",
                 "roast_level": "Light",
                 "bean_type": "Robusta",
-                "origin_country": "Brazil",
+                "origin_countries": "Brazil",
                 "flavor_notes": [
                     "walnut",
                     "cocoa"
@@ -179,7 +179,7 @@
                 "blend_name": "Specialty Blend",
                 "roast_level": "Medium",
                 "bean_type": "Robusta",
-                "origin_country": [
+                "origin_countries": [
                     "Brazil",
                     "Colombia"
                 ],
@@ -195,7 +195,7 @@
                 "blend_name": "Breakfast Blend",
                 "roast_level": "Light",
                 "bean_type": "Arabica",
-                "origin_country": [
+                "origin_countries": [
                     "Brazil",
                     "Colombia",
                     "India"
@@ -215,7 +215,7 @@
                 "blend_name": "Single Origin",
                 "roast_level": "Dark",
                 "bean_type": "Robusta",
-                "origin_country": "Colombia",
+                "origin_countries": "Colombia",
                 "flavor_notes": [
                     "brown sugar",
                     "milk chocolate",
@@ -240,7 +240,7 @@
                 "blend_name": "Gold Blend",
                 "roast_level": "Medium Dark",
                 "bean_type": "Robusta",
-                "origin_country": [
+                "origin_countries": [
                     "Colombia",
                     "Guatemala",
                     "Brazil",
@@ -265,7 +265,7 @@
                 "blend_name": " Select Specialty Blend",
                 "roast_level": "Light",
                 "bean_type": "Arabica",
-                "origin_country": [
+                "origin_countries": [
                     "Brazil",
                     "Colombia",
                     "Guatemala",
@@ -287,7 +287,7 @@
                 "blend_name": "Single Origin",
                 "roast_level": "Medium",
                 "bean_type": "Arabica",
-                "origin_country": "Brazil",
+                "origin_countries": "Brazil",
                 "flavor_notes": [
                     "cacao",
                     "walnut"
@@ -303,7 +303,7 @@
                 "blend_name": "Single Origin",
                 "roast_level": "Light",
                 "bean_type": "Arabica",
-                "origin_country": "Colombia",
+                "origin_countries": "Colombia",
                 "flavor_notes": [
                     "lemon",
                     "brown sugar",
@@ -320,7 +320,7 @@
                 "blend_name": "Single Origin",
                 "roast_level": "Medium",
                 "bean_type": "Robusta",
-                "origin_country": "Guatemala",
+                "origin_countries": "Guatemala",
                 "flavor_notes": [
                     "dark chocolate",
                     "graham craker",
