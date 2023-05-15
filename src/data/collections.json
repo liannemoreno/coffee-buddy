@@ -1,0 +1,335 @@
+[
+    {
+        "id": 101,
+        "collection_name": "Dunkin Donuts",
+        "collection_description": "Dunkin's best flavors 2023",
+        "user": "The Amateour Connoisseur",
+        "coffees": [
+            {
+                "id": 122,
+                "brand_name": "Dunkin Donuts",
+                "image": "./public/images/dunkin.jpeg",
+                "blend_name": "Breakfast Blend",
+                "roast_level": "Light",
+                "bean_type": "Arabica",
+                "origin_countries": [
+                    "Colombia",
+                    "Sumatra",
+                    "Brazil"
+                ],
+                "flavor_notes": [
+                    "chocolate",
+                    "hazelnut"
+                ],
+                "price": 19.22,
+                "bag_weight": "2 lb",
+                "organic_certification": false
+            },
+            {
+                "id": 151,
+                "brand_name": "Dunkin Donuts",
+                "image": "./public/images/dunkin.jpeg",
+                "blend_name": "Single Origin",
+                "roast_level": "Medium",
+                "bean_type": "Arabica",
+                "origin_countries": "Peru",
+                "flavor_notes": [
+                    "caramel " ,
+                    "brown sugar"
+                ],
+                "price": 21.79,
+                "bag_weight": "2 lb",
+                "organic_certification": false
+            },
+            {
+                "id": 109,
+                "brand_name": "Dunkin Donuts",
+                "image": "./public/images/dunkin.jpeg",
+                "blend_name": "Single Origin",
+                "roast_level": "Dark",
+                "bean_type": "Robusta",
+                "origin_countries": "Costa Rica",
+                "flavor_notes": [
+                    "orange",
+                    "red apple",
+                    "brown sugar"
+                ],
+                "price": 27.08,
+                "bag_weight": "2 lb",
+                "organic_certification": false
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "collection_name": "Peete's",
+        "collection_description": "Peete's best flavors 2023",
+        "user": "The Amateour Connoisseur",
+        "coffees": [
+            {
+                "id": 176,
+                "brand_name": "Peet's Coffee",
+                "image": "./public/images/peetes.jpeg",
+                "blend_name": "Select Blend",
+                "roast_level": "Light",
+                "bean_type": "Robusta",
+                "origin_countries": [
+                    "Colombia",
+                    "Peru",
+                    "Brazil"
+                ],
+                "flavor_notes": [
+                    "lemon",
+                    "lavender"
+                ],
+                "price": 24.82,
+                "bag_weight": "2 lb",
+                "organic_certification": true
+            },
+            {
+                "id": 144,
+                "brand_name": "Peet's Coffee",
+                "image": "./public/images/peetes.jpeg",
+                "blend_name": "Specialty Blend",
+                "roast_level": "Medium",
+                "bean_type": "Robusta",
+                "origin_countries": [
+                    "Peru",
+                    "Honduras",
+                    "Brazil"
+                ],
+                "flavor_notes": [
+                    "lemon",
+                    "brown sugar",
+                    "milk chocolate"
+                ],
+                "price": 18.18,
+                "bag_weight": "2 lb",
+                "organic_certification": true
+            },
+            {
+                "id": 187,
+                "brand_name": "Peet's Coffee",
+                "image": "./public/images/peetes.jpeg",
+                "blend_name": "Specialty Blend",
+                "roast_level": "Dark",
+                "bean_type": "Robusta",
+                "origin_countries": [
+                    "Colombia",
+                    "Brazil",
+                    "Peru"
+                ],
+                "flavor_notes": [
+                    "chocolate",
+                    "lemon"
+                ],
+                "price": 24.35,
+                "bag_weight": "2 lb",
+                "organic_certification": false
+            },
+            {
+                "id": 184,
+                "brand_name": "Peet's Coffee",
+                "image": "./public/images/peetes.jpeg",
+                "blend_name": "House Blend",
+                "roast_level": "Light",
+                "bean_type": "Arabica",
+                "origin_countries": [
+                    "Colombia",
+                    "Guatemala",
+                    "Brazil",
+                    "Peru"
+                ],
+                "flavor_notes": [
+                    "cherry",
+                    "dark chocolate"
+                ],
+                "price": 25.37,
+                "bag_weight": "2 lb",
+                "organic_certification": true
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "collection_name": "Starbucks",
+        "collection_description": "Starbucks's best flavors 2023",
+        "user": "The Amateour Connoisseur",
+        "coffees": [
+            {
+                "id": 151,
+                "brand_name": "Starbucks",
+                "image": "./public/images/sbux.jpeg",
+                "blend_name": "Single Origin",
+                "roast_level": "Light",
+                "bean_type": "Robusta",
+                "origin_countries": "Brazil",
+                "flavor_notes": [
+                    "walnut",
+                    "cocoa"
+                ],
+                "price": 23.74,
+                "bag_weight": "2 lb",
+                "organic_certification": true
+            },
+            {
+                "id": 144,
+                "brand_name": "Starbucks",
+                "image": "./public/images/sbux.jpeg",
+                "blend_name": "Specialty Blend",
+                "roast_level": "Medium",
+                "bean_type": "Robusta",
+                "origin_countries": [
+                    "Brazil",
+                    "Colombia"
+                ],
+                "flavor_notes": "dark chocolate",
+                "price": 20.38,
+                "bag_weight": "2 lb",
+                "organic_certification": true
+            },
+            {
+                "id": 110,
+                "brand_name": "Starbucks",
+                "image": "./public/images/sbux.jpeg",
+                "blend_name": "Breakfast Blend",
+                "roast_level": "Light",
+                "bean_type": "Arabica",
+                "origin_countries": [
+                    "Brazil",
+                    "Colombia",
+                    "India"
+                ],
+                "flavor_notes": [
+                    "cinamon",
+                    "hazelnut"
+                ],
+                "price": 18.11,
+                "bag_weight": "2 lb",
+                "organic_certification": false
+            },
+            {
+                "id": 166,
+                "brand_name": "Starbucks",
+                "image": "./public/images/sbux.jpeg",
+                "blend_name": "Single Origin",
+                "roast_level": "Dark",
+                "bean_type": "Robusta",
+                "origin_countries": "Colombia",
+                "flavor_notes": [
+                    "brown sugar",
+                    "milk chocolate",
+                    "walnut"
+                ],
+                "price": 19.57,
+                "bag_weight": "2 lb",
+                "organic_certification": false
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "collection_name": "La Vela",
+        "collection_description": "La Vela's best blends and single origins 2023",
+        "user": "The Amateour Connoisseur",
+        "coffees": [
+            {
+                "id": 102,
+                "brand_name": "La Vela Coffee",
+                "image": "./public/images/lavela.jpeg",
+                "blend_name": "Gold Blend",
+                "roast_level": "Medium Dark",
+                "bean_type": "Robusta",
+                "origin_countries": [
+                    "Colombia",
+                    "Guatemala",
+                    "Brazil",
+                    "Peru",
+                    "Sumatra",
+                    "India"
+                ],
+                "flavor_notes": [
+                    "dark chocolate",
+                    "almond",
+                    "caramel",
+                    "cherry"
+                ],
+                "price": 22.1,
+                "bag_weight": "2 lb",
+                "organic_certification": true
+            },
+            {
+                "id": 188,
+                "brand_name": "La Vela Coffee",
+                "image": "./public/images/lavela.jpeg",
+                "blend_name": " Select Specialty Blend",
+                "roast_level": "Light",
+                "bean_type": "Arabica",
+                "origin_countries": [
+                    "Brazil",
+                    "Colombia",
+                    "Guatemala",
+                    "Peru"
+                ],
+                "flavor_notes": [
+                    "cedar",
+                    "rasberry",
+                    "dark chocolate"
+                ],
+                "price": 21.87,
+                "bag_weight": "2 lb",
+                "organic_certification": true
+            },
+            {
+                "id": 140,
+                "brand_name": "La Vela Coffee",
+                "image": "./public/images/lavela.jpeg",
+                "blend_name": "Single Origin",
+                "roast_level": "Medium",
+                "bean_type": "Arabica",
+                "origin_countries": "Brazil",
+                "flavor_notes": [
+                    "cacao",
+                    "walnut"
+                ],
+                "price": 28.49,
+                "bag_weight": "2 lb",
+                "organic_certification": true
+            },
+            {
+                "id": 137,
+                "brand_name": "La Vela Coffee",
+                "image": "./public/images/lavela.jpeg",
+                "blend_name": "Single Origin",
+                "roast_level": "Light",
+                "bean_type": "Arabica",
+                "origin_countries": "Colombia",
+                "flavor_notes": [
+                    "lemon",
+                    "brown sugar",
+                    "milk chocolate"
+                ],
+                "price": 28.78,
+                "bag_weight": "2 lb",
+                "organic_certification": true
+            },
+            {
+                "id": 182,
+                "brand_name": "La Vela Coffee",
+                "image": "./public/images/lavela.jpeg",
+                "blend_name": "Single Origin",
+                "roast_level": "Medium",
+                "bean_type": "Robusta",
+                "origin_countries": "Guatemala",
+                "flavor_notes": [
+                    "dark chocolate",
+                    "graham craker",
+                    "lemon"
+                ],
+                "price": 30.99,
+                "bag_weight": "2 lb",
+                "organic_certification": false
+            }
+        ]
+    }
+]
