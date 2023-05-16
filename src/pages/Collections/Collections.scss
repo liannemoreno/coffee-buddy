@@ -1,0 +1,114 @@
+@use "../../styles/global.scss" as *;
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.collections {
+    padding: 30px 31px;
+    align-content: baseline;
+    text-align: start;
+    background-color: $light-yellow-background;
+
+    &__title {
+        font-size: 20px;
+        color: $green-header;
+    }
+
+    &__sort-by {
+        font-size: 15px;
+        padding: 15px 0 24px;
+        display: flex;
+        flex-direction: row;
+
+        p {
+            padding-right: 3%;
+        }
+
+        &--title {
+            color: $green-header;
+        }
+
+        &--name {
+            color: $green-subheader;
+        }
+
+        &--date {
+            color: $green-subheader
+        }
+    }
+
+    &__pages{
+        display:flex;
+        justify-content: space-around;
+
+        &--img{
+            align-self: center;
+            padding-top: 15px;
+        }
+    }
+
+    &__new{
+        display:flex;
+        justify-content: space-around;
+
+        &--header{
+            align-self: center;
+            font-size: 13px;
+            font-weight: 500;
+            color: $rust-border;
+            padding: 20px 0 10px;
+        }
+    }
+}
+
+.collection {
+    background-color: $yellow-background;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid $rust-border;
+    border-radius: 10px;
+    margin-bottom: 26px;
+    &__left{
+        background-color:$green-background;
+        border-radius: 10px;
+        padding: 0 5px;
+        margin-right: 5px;
+    }
+    &__right{
+        width:86%;
+    }
+    &__name {
+        font-size: 16px;
+        font-weight: 400;
+        color: $green-header;
+        padding: 5px 0;
+    }
+
+
+
+    &__middle {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 3px;
+        &-user {
+            font-size: 10px;
+            color: $green-header;
+            margin-right: 20px;
+
+        }
+
+        &-desc {
+            font-size: 10px;
+            color: $green-header;
+        }
+    }
+
+    &__time {
+        font-size: 10px;
+        color: $green-header;
+        padding-bottom: 5px;
+    }
+
+
+
+}
