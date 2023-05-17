@@ -13,6 +13,8 @@ function Collections({ collections }) {
     navigate(`/collections/${collectionId}`);
   };
 
+  const url =process.env.REACT_APP_BASE;
+
   // {collections.map((collection) => 
   //   (console.log(collection.image))
   //  )};
@@ -39,7 +41,7 @@ function Collections({ collections }) {
           <div className="collection" key={collection.id}>
     
               <div className="collection__left">
-                <img className="collection__left--img" src={collection.image} alt="#"></img>
+                <img className="collection__left--img" src={url + collection.image} alt="#"></img>
               </div>
               <div className="collection__right">
                 <h1

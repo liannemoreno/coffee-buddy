@@ -19,7 +19,6 @@ function Collection({ selectedCollection }) {
 
   const filteredCollection = selectedCollection.filter(collection => collection.id == collectionId)
   console.log(filteredCollection);
-  //its working but its being saved into one array of one objext 
   const coffees = filteredCollection[0].coffees;
   
 
