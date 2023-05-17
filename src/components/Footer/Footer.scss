@@ -3,7 +3,10 @@
 @use "../../styles/variables.scss" as *;
 
 .footer {
+    position:absolute;
     border-top: solid 1.5px $rust-border;
+    width: 100%;
+    bottom:0%;
 
     &__nav {
         background-color: $light-yellow-background;

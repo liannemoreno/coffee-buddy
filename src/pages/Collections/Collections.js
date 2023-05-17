@@ -15,14 +15,6 @@ function Collections({ collections }) {
 
   const url =process.env.REACT_APP_BASE;
 
-  // {collections.map((collection) => 
-  //   (console.log(collection.image))
-  //  )};
-
-
-
-
-
   return (
     <>
     <Header />

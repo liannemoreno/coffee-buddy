@@ -1,9 +1,17 @@
 import React from 'react'
+import Footer from '../Footer/Footer.js';
+import Header from '../Header/Header.js';
 
-const BrewingType = () => {
-  return (
-    <div>BrewingType</div>
-  )
+function BrewingType() {
+    return (
+        <>
+        <Header />
+        <section className="brewing_type">
+
+        </section>
+        <Footer />
+        </>
+    )
 }
 
 export default BrewingType

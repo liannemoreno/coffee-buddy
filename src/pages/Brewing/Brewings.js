@@ -14,15 +14,19 @@ function Brewings({ brews }) {
   return (
     <>
       <Header />
+      <div className="brews">
+        <h1 className ="brews__title">Prepare Your Coffee</h1>
+        <h2 className="brews__subtitle">CHOOSE BREWING METHOS</h2>
       {brews.map((brew) =>
         <div className="brew" key={brew.id}>
-          <img src={url + brew.image} onClick={() => brewClick(brew.id)}
+          <img className="brew__image" src={url + brew.image} onClick={() => brewClick(brew.id)}
           ></img>
-          <div>
+          <div className="brew__technique">
             {brew.brewing_technique}
           </div>
         </div>
       )}
+      </div>
       <Footer />
     </>
   )

@@ -3,13 +3,13 @@
 @use "../../styles/variables.scss" as *;
 
 body {
-    background-color: $yellow-background;
+    background-color: $light-yellow-background;
     font-family: 'Poppins', sans-serif;
 
 }
 
-
 .start {
+    background-color: $yellow-background;
     &__top-row {
         & img {
             width: 35%;

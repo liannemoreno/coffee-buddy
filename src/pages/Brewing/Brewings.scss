@@ -1,0 +1,40 @@
+@use "../../styles/global.scss" as *;
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+
+.brews{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 30px 93px 30px;
+    background-color: $light-yellow-background;
+
+    &__title{
+        font-size: 30px;
+        font-weight: 400;
+        color: $green-header;
+        padding-top: 15px;
+    }
+    
+    &__subtitle{
+        font-size: 15px;
+        font-weight: 400;
+        color: $green-header;
+        width:100%;
+        padding: 10px 0 20px 0;
+        text-align: left;
+
+}}
+
+
+.brew {
+    padding: 10px 6px ;
+
+    
+
+    &__technique{
+        font-size: 15px;
+        font-weight: 400;
+        color:$green-subheader;
+    }
+}
