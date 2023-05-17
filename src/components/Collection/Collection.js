@@ -9,21 +9,19 @@ import '../Collection/Collection.scss';
 
 
 function Collection({ selectedCollection }) {
-
   const navigate = useNavigate();
   const goBack = () => {
     navigate(-1);
-    //I HAVE TO USE goBack on an icon that takes me back//
   }
 
   const { collectionId } = useParams();
-  // console.log(collectionId);
+
 
   const filteredCollection = selectedCollection.filter(collection => collection.id == collectionId)
-  // console.log(filteredCollection);
+  console.log(filteredCollection);
   //its working but its being saved into one array of one objext 
   const coffees = filteredCollection[0].coffees;
-
+  
 
   if (!selectedCollection) {
     return <div>loading</div>
@@ -35,7 +33,7 @@ function Collection({ selectedCollection }) {
         <a className="coffees__return--logo">
           <img className="coffees__return--logo" src={chevron} onClick={goBack} />
         </a>
-
+        <p>{filteredCollection.collection_name}</p>
         <div className="coffees__scrollable">
           {coffees.map(coffee =>
             <div className="coffee" key={coffee.id}>
