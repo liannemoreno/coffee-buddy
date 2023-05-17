@@ -1,0 +1,112 @@
+@use "../../styles/global.scss" as *;
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.coffees{
+    text-align: start;
+    padding: 0 31px;  
+    background-color: $light-yellow-background;
+    height:100%;
+    &__scrollable{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow-y: scroll ;
+        padding-top: 10px;
+    }
+
+}
+
+.coffee{
+    border: .0625rem solid $yellow-title;
+    border-radius: 10px;
+    width: 46%;
+    height: 21vh;
+    padding:5px;
+    margin: 10px 0;
+
+    &__ratings{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+        &--single{
+            padding: 10px 2px;
+        }
+    }
+
+    &__blend{
+        font-size: 15px;
+        font-weight: 400;
+        color: $green-header;
+    }
+
+    &__brand{
+        font-size:12px;
+        font-weight:600;
+        color: $green-header;
+        padding-bottom: 8px;
+    }
+
+    &__roast{
+        font-size:11px;
+        color: $green-header;
+        display:flex;
+        flex-direction:row;
+        padding-bottom: 2px;
+
+        &--title{
+            font-weight:bold;
+            padding-right: 5px;
+        }
+
+        &--name{
+            font-weight:lighter;
+            
+
+        }
+    }
+
+    &__country{
+        font-size:11px;
+        color: $green-header;
+        display: flex;
+        flex-wrap:wrap;
+        padding-bottom: 2px;
+    
+
+        &--title{
+            font-weight:bold;
+            padding-right: 5px;
+        }
+
+        &--name{
+            font-weight:lighter;
+            list-style-type: none;
+
+        }
+    }
+
+    &__notes{
+        font-size:11px;
+        color: $green-header;
+        padding-bottom: 2px;
+    
+
+        &--title{
+            font-weight:bold;
+            padding-right: 5px;
+        }
+
+        &--name{
+            font-weight:lighter;
+            list-style-type: none;
+
+        }
+    }
+
+
+}
+
+

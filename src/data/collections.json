@@ -3,13 +3,13 @@
         "id": 101,
         "collection_name": "Dunkin Donuts",
         "collection_description": "Very good coffee",
-        "image": "../../assets/logos/images/dunkin.jpeg",
+        "image": "../../../public/images_json/dunkin.jpeg",
         "user": "Duke Silver",
         "coffees": [
             {
                 "id": 122,
                 "brand_name": "Dunkin Donuts",
-                "image": "./public/images/dunkin.jpeg",
+                "image": "../assets/logos/images/dunkin.jpeg",
                 "blend_name": "Breakfast Blend",
                 "roast_level": "Light",
                 "bean_type": "Arabica",
@@ -29,8 +29,8 @@
             {
                 "id": 151,
                 "brand_name": "Dunkin Donuts",
-                "image": "./public/images/dunkin.jpeg",
-                "blend_name": "Single Origin Arabica",
+                "image": "../assets/logos/images/dunkin.jpeg",
+                "blend_name": "Peru Arabica",
                 "roast_level": "Medium",
                 "bean_type": "Arabica",
                 "countries": [
@@ -47,12 +47,12 @@
             {
                 "id": 109,
                 "brand_name": "Dunkin Donuts",
-                "image": "./public/images/dunkin.jpeg",
-                "blend_name": "Single Origin Robusta",
+                "image": "../assets/logos/images/dunkin.jpeg",
+                "blend_name": "Colombia Arabica",
                 "roast_level": "Dark",
-                "bean_type": "Robusta",
+                "bean_type": "Arabica",
                 "countries": [
-                    "Costa Rica"
+                    "Colombia"
                 ],
                 "flavor_notes": [
                     "orange",
@@ -69,16 +69,16 @@
         "id": 102,
         "collection_name": "Peete's",
         "collection_description": "OK coffee",
-        "image": "./public/images/peetes.jpeg",
+        "image": "../assets/logos/images/peetes.jpeg",
         "user": "Duke Silver",
         "coffees": [
             {
                 "id": 176,
                 "brand_name": "Peet's Coffee",
-                "image": "./public/images/peetes.jpeg",
-                "blend_name": "Select Blend Light",
+                "image": "../assets/logos/images/peetes.jpeg",
+                "blend_name": "Select Blend",
                 "roast_level": "Light",
-                "bean_type": "Robusta",
+                "bean_type": "Arabica",
                 "countries": [
                     "Colombia",
                     "Peru",
@@ -95,10 +95,10 @@
             {
                 "id": 144,
                 "brand_name": "Peet's Coffee",
-                "image": "./public/images/peetes.jpeg",
-                "blend_name": "Specialty Blend Robusta",
+                "image": "../assets/logos/images/peetes.jpeg",
+                "blend_name": "LATAM Blend",
                 "roast_level": "Medium",
-                "bean_type": "Robusta",
+                "bean_type": "Arabica",
                 "countries": [
                     "Peru",
                     "Honduras",
@@ -115,10 +115,10 @@
             {
                 "id": 187,
                 "brand_name": "Peet's Coffee",
-                "image": "./public/images/peetes.jpeg",
-                "blend_name": "Specialty Blend Dark",
+                "image": "../assets/logos/images/peetes.jpeg",
+                "blend_name": "Specialty Dark",
                 "roast_level": "Dark",
-                "bean_type": "Robusta",
+                "bean_type": "Arabica",
                 "countries": [
                     "Colombia",
                     "Brazil"
@@ -134,8 +134,8 @@
             {
                 "id": 184,
                 "brand_name": "Peet's Coffee",
-                "image": "./public/images/peetes.jpeg",
-                "blend_name": "House Blend Arabica",
+                "image": "../assets/logos/images/peetes.jpeg",
+                "blend_name": "House Blend",
                 "roast_level": "Light",
                 "bean_type": "Arabica",
                 "countries": [
@@ -156,16 +156,16 @@
         "id": 103,
         "collection_name": "Starbucks",
         "collection_description": "Not good coffee",
-        "image": "./public/images/sbux.jpeg",
+        "image": "../assets/logos/images/sbux.jpeg",
         "user": "Duke Silver",
         "coffees": [
             {
                 "id": 151,
                 "brand_name": "Starbucks",
-                "image": "./public/images/sbux.jpeg",
-                "blend_name": "Single Origin Robusta",
+                "image": "../assets/logos/images/sbux.jpeg",
+                "blend_name": "'Morning",
                 "roast_level": "Light",
-                "bean_type": "Robusta",
+                "bean_type": "Arabica",
                 "countries": [
                     "Brazil"
                 ],
@@ -180,10 +180,10 @@
             {
                 "id": 144,
                 "brand_name": "Starbucks",
-                "image": "./public/images/sbux.jpeg",
-                "blend_name": "Specialty Blend Robusta",
+                "image": "../assets/logos/images/sbux.jpeg",
+                "blend_name": "Pick me Up",
                 "roast_level": "Medium",
-                "bean_type": "Robusta",
+                "bean_type": "Arabica",
                 "countries": [
                     "Brazil",
                     "Colombia"
@@ -198,7 +198,7 @@
             {
                 "id": 110,
                 "brand_name": "Starbucks",
-                "image": "./public/images/sbux.jpeg",
+                "image": "../assets/logos/images/sbux.jpeg",
                 "blend_name": "Breakfast in Bed",
                 "roast_level": "Light",
                 "bean_type": "Arabica",
@@ -217,10 +217,10 @@
             {
                 "id": 166,
                 "brand_name": "Starbucks",
-                "image": "./public/images/sbux.jpeg",
-                "blend_name": "Dark Robusta",
+                "image": "../assets/logos/images/sbux.jpeg",
+                "blend_name": "Dark Knight",
                 "roast_level": "Dark",
-                "bean_type": "Robusta",
+                "bean_type": "Arabica",
                 "countries": [
                     "Colombia"
                 ],
@@ -240,15 +240,15 @@
         "collection_name": "La Vela",
         "collection_description": "Excelent coffee",
         "user": "Duke Silver",
-        "image": "./public/images/lavela.jpeg",
+        "image": "../assets/logos/images/lavela.jpeg",
         "coffees": [
             {
                 "id": 102,
                 "brand_name": "La Vela Coffee",
-                "image": "./public/images/lavela.jpeg",
+                "image": "../assets/logos/images/lavela.jpeg",
                 "blend_name": "Gold Blend",
                 "roast_level": "Medium Dark",
-                "bean_type": "Robusta",
+                "bean_type": "Arabica",
                 "countries": [
                     "Sumatra",
                     "India"
@@ -264,8 +264,8 @@
             {
                 "id": 188,
                 "brand_name": "La Vela Coffee",
-                "image": "./public/images/lavela.jpeg",
-                "blend_name": " Select Blend",
+                "image": "../assets/logos/images/lavela.jpeg",
+                "blend_name": "Select Blend",
                 "roast_level": "Light",
                 "bean_type": "Arabica",
                 "countries": [
@@ -284,7 +284,7 @@
             {
                 "id": 140,
                 "brand_name": "La Vela Coffee",
-                "image": "./public/images/lavela.jpeg",
+                "image": "../assets/logos/images/lavela.jpeg",
                 "blend_name": "Brazil",
                 "roast_level": "Medium",
                 "bean_type": "Arabica",
@@ -302,7 +302,7 @@
             {
                 "id": 137,
                 "brand_name": "La Vela Coffee",
-                "image": "./public/images/lavela.jpeg",
+                "image": "../assets/logos/images/.jpeg",
                 "blend_name": "Colombia",
                 "roast_level": "Light",
                 "bean_type": "Arabica",

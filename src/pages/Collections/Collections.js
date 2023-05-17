@@ -6,11 +6,20 @@ import Footer from '../../components/Footer/Footer.js';
 import pages from '../../assets/logos/nav-bar/pages.svg';
 import Header from '../../components/Header/Header.js';
 
+
 function Collections({ collections }) {
   const navigate = useNavigate();
   const collectionClick = (collectionId) => {
     navigate(`/collections/${collectionId}`);
   };
+
+  // {collections.map((collection) => 
+  //   (console.log(collection.image))
+  //  )};
+
+
+
+
 
   return (
     <>
@@ -25,7 +34,8 @@ function Collections({ collections }) {
 
           </div>
         </div>
-        {collections.map((collection) => (
+        {collections.map((collection) => 
+          (
           <div className="collection" key={collection.id}>
     
               <div className="collection__left">

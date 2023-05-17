@@ -3,19 +3,19 @@
 @use "../../styles/variables.scss" as *;
 
 .collections {
-    padding: 30px 31px;
+    padding: 1.875rem 1.9375rem;
     align-content: baseline;
     text-align: start;
     background-color: $light-yellow-background;
 
     &__title {
-        font-size: 20px;
+        font-size: 1.25rem;
         color: $green-header;
     }
 
     &__sort-by {
-        font-size: 15px;
-        padding: 15px 0 24px;
+        font-size: .9375rem;
+        padding: .9375rem 0 1.5rem;
         display: flex;
         flex-direction: row;
 
@@ -36,26 +36,26 @@
         }
     }
 
-    &__pages{
-        display:flex;
+    &__pages {
+        display: flex;
         justify-content: space-around;
 
-        &--img{
+        &--img {
             align-self: center;
-            padding-top: 15px;
+            padding-top: .9375rem;
         }
     }
 
-    &__new{
-        display:flex;
+    &__new {
+        display: flex;
         justify-content: space-around;
 
-        &--header{
+        &--header {
             align-self: center;
-            font-size: 13px;
+            font-size: .8125rem;
             font-weight: 500;
             color: $rust-border;
-            padding: 20px 0 10px;
+            padding: 1.25rem 0 .625rem;
         }
     }
 }
@@ -64,49 +64,53 @@
     background-color: $yellow-background;
     display: flex;
     flex-direction: row;
-    border: 1px solid $rust-border;
-    border-radius: 10px;
-    margin-bottom: 26px;
-    &__left{
-        background-color:$green-background;
-        border-radius: 10px;
-        padding: 0 5px;
-        margin-right: 5px;
+    border: .0625rem solid $rust-border;
+    border-radius: .625rem;
+    margin-bottom: 1.625rem;
+
+    &__left {
+        background-color: $green-background;
+        border-radius: .625rem;
+        padding: 0 .3125rem;
+        margin-right: .3125rem;
     }
-    &__right{
-        width:86%;
+
+    &__right {
+        width: 86%;
     }
+
     &__name {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
         color: $green-header;
-        padding: 5px 0;
+        padding: .3125rem 0;
     }
 
 
 
     &__middle {
-        display:flex;
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-bottom: 3px;
+        padding-bottom: .1875rem;
+
         &-user {
-            font-size: 10px;
+            font-size: .625rem;
             color: $green-header;
-            margin-right: 20px;
+            margin-right: 1.25rem;
 
         }
 
         &-desc {
-            font-size: 10px;
+            font-size: .625rem;
             color: $green-header;
         }
     }
 
     &__time {
-        font-size: 10px;
+        font-size: .625rem;
         color: $green-header;
-        padding-bottom: 5px;
+        padding-bottom: .3125rem;
     }
 
 
