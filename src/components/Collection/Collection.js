@@ -34,7 +34,7 @@ function Collection({ collectionsData }) {
         <a className="coffees__return--logo">
           <img className="coffees__return--logo-img" src={chevron} onClick={goBack} />
         </a>
-        <p>{filteredCollection.collection_name}</p>
+        <h4 className="coffees__collection">{filteredCollection.collection_name} Collection</h4>
         <div className="coffees__scrollable">
           {coffees.map(coffee =>
             <div className="coffee" key={coffee.id}>
