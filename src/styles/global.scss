@@ -4,9 +4,17 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;;
-}
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+  }
+  body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
 
 a {
     text-decoration: none;

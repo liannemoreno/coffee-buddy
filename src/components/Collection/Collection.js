@@ -8,7 +8,7 @@ import unfilled from '../../assets/logos/images/unfilled.svg';
 import '../Collection/Collection.scss';
 
 
-function Collection({ selectedCollection }) {
+function Collection({ collectionsData }) {
   const navigate = useNavigate();
   const goBack = () => {
     navigate(-1);
@@ -17,14 +17,16 @@ function Collection({ selectedCollection }) {
   const { collectionId } = useParams();
 
 
-  const filteredCollection = selectedCollection.filter(collection => collection.id == collectionId)
+  const filteredCollection = collectionsData.find(collection => collection.id == collectionId)
   console.log(filteredCollection);
-  const coffees = filteredCollection[0].coffees;
+  
   
 
-  if (!selectedCollection) {
+  if (!filteredCollection) {
     return <div>loading</div>
   }
+
+  const coffees = filteredCollection.coffees;
   return (
     <>
       <Header />

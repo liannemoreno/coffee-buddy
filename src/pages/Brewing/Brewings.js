@@ -9,7 +9,6 @@ function Brewings({ brews }) {
   const brewClick = (brewId) => {
     navigate(`/prepare/${brewId}`);
   };
-
   const url =process.env.REACT_APP_BASE;
   return (
     <>
