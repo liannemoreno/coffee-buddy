@@ -67,3 +67,5 @@ Run the following after dowload
 ## Demo
 The web application is only intended to be for mobile. The screen size is 390 x 844. 
 
+![Start Page](./public/readme_images/shot.gif)
+
