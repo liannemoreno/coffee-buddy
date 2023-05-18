@@ -32,7 +32,7 @@ function Collection({ collectionsData }) {
       <Header />
       <section className="coffees">
         <a className="coffees__return--logo">
-          <img className="coffees__return--logo" src={chevron} onClick={goBack} />
+          <img className="coffees__return--logo-img" src={chevron} onClick={goBack} />
         </a>
         <p>{filteredCollection.collection_name}</p>
         <div className="coffees__scrollable">

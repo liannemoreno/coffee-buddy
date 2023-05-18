@@ -3,6 +3,7 @@ import '../BrewingType/BrewingType.scss';
 import { useParams, useNavigate } from 'react-router-dom';
 import Footer from '../Footer/Footer.js';
 import Header from '../Header/Header.js';
+import chevron from '../../assets/logos/images/chevron-left.svg';
 
 function BrewingType({ brewingData }) {
     const navigate = useNavigate();
@@ -28,6 +29,9 @@ function BrewingType({ brewingData }) {
         <>
             <Header />
             <section className="brewing">
+                <a className="brewing__return--logo">
+                    <img className="brewing__return--logo" src={chevron} onClick={goBack} />
+                </a>
                 <div className="brewing__type">
                     <p class className="brewing__type--name">
                         {filteredBrew.brewing_technique}
@@ -48,7 +52,7 @@ function BrewingType({ brewingData }) {
                         </div>
                         <div className="specs__amount">
                             <p className="specs__amount name">
-                                COFFEE AMOUNT: 
+                                COFFEE AMOUNT:
                             </p>
                             <p className="specs__amount value">
                                 {spec.coffee_amount}

@@ -3,12 +3,13 @@
 @use "../../styles/variables.scss" as *;
 
 .brewing {
+    text-align: start;
     overflow-y: hidden;
     padding: 0 31px;
 
     &__type {
-
-        padding: 10px;
+        text-align: center;
+        padding: 25px 10px 15px 10px;
 
         &--name {
             padding-bottom: 10px;
@@ -38,10 +39,6 @@
         flex-wrap: wrap;
 
         &--val {
-            // display:flex;
-            // flex-wrap: wrap;
-            // justify-content: center;
-
             &-li {
                 display: flex;
                 flex-direction: row;
@@ -60,7 +57,7 @@
 .name {
     font-weight: 600;
     color: $green-header;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .value {
