@@ -5,15 +5,15 @@
 .brewing {
     text-align: start;
     overflow-y: hidden;
-    padding: 0 31px;
+    padding: 0 1.9375rem;
 
     &__type {
         text-align: center;
-        padding: 25px 10px 15px 10px;
+        padding: 1.5625rem .625rem .9375rem .625rem;
 
         &--name {
-            padding-bottom: 10px;
-            font-size: 20px;
+            padding-bottom: .625rem;
+            font-size: 1.25rem;
             color: $green-header;
         }
     }
@@ -24,13 +24,13 @@
 
     &__ground-size {
         display: flex;
-        margin: 5px 0;
+        margin: .3125rem 0;
 
     }
 
     &__amount {
         display: flex;
-        margin-bottom: 5px;
+        margin-bottom: .3125rem;
     }
 
     &__steps {
@@ -42,10 +42,10 @@
             &-li {
                 display: flex;
                 flex-direction: row;
-                margin-top:5px;
+                margin-top:.3125rem;
              &--stp{
                 text-align: start;
-                padding-left:5px;
+                padding-left:.3125rem;
              }
 
             }
@@ -57,23 +57,23 @@
 .name {
     font-weight: 600;
     color: $green-header;
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .value {
-    font-size: 17px;
-    border: 1px solid #E5CAC5;
-    background-color: #FFE8E3;
+    font-size: 1.0625rem;
+    border: .0625rem solid $pink-border;
+    background-color: $pink-fill;
     color: $rust-border;
-    padding: 0 8px;
-    margin-left: 8px;
+    padding: 0 .5rem;
+    margin-left: .5rem;
 }
 
 .value2 {
-    font-size: 17px;
-    border: 1px solid #E5CAC5;
+    font-size: 1.0625rem;
+    border: .0625rem solid $pink-border;
     background-color: $yellow-background;
     color: $rust-border;
-    padding: 0 8px;
-    margin-left: 8px;
+    padding: 0 .5rem;
+    margin-left: .5rem;
 }

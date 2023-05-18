@@ -5,7 +5,7 @@
 .header {
     background-color: $light-yellow-background;
     display: flex;
-    padding: 40px 30px 0;
+    padding: 2.5rem 1.875rem 0;
     justify-content: space-between;
     align-items: center;
 
@@ -18,15 +18,15 @@
     &__search {
         &--input {
             &-text {
-                height: 30px;
-                border: .5px solid $yellow-title;
-                border-radius: 10px;
-                background-color: #FFF4DD;
+                height: 1.875rem;
+                border: .0313rem solid $yellow-title;
+                border-radius: .625rem;
+                background-color: $yellow-text;
 
             }
 
             &-text::placeholder {
-                padding-left: 5px;
+                padding-left: .3125rem;
                 color: $yellow-title;
 
             }

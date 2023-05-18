@@ -32,17 +32,17 @@ function Collection({ collectionsData }) {
       <Header />
       <section className="coffees">
         <a className="coffees__return--logo">
-          <img className="coffees__return--logo-img" src={chevron} onClick={goBack} />
+          <img className="coffees__return--logo-img" src={chevron} onClick={goBack} alt="chevron to go back"/>
         </a>
         <h4 className="coffees__collection">{filteredCollection.collection_name} Collection</h4>
         <div className="coffees__scrollable">
           {coffees.map(coffee =>
             <div className="coffee" key={coffee.id}>
               <div className="coffee__ratings">
-                <img className="coffee__ratings--single" src={filled}></img>
-                <img className="coffee__ratings--single" src={filled}></img>
-                <img className="coffee__ratings--single" src={filled}></img>
-                <img className="coffee__ratings--single" src={unfilled}></img>
+                <img className="coffee__ratings--single" src={filled} alt="coffee bean"></img>
+                <img className="coffee__ratings--single" src={filled} alt="coffee bean"></img>
+                <img className="coffee__ratings--single" src={filled} alt="coffee bean"></img>
+                <img className="coffee__ratings--single" src={unfilled} alt="hallowed coffee bean"></img>
               </div>
               <h3 className="coffee__blend">{coffee.blend_name}</h3>
               <p className="coffee__brand">{coffee.brand_name}</p>

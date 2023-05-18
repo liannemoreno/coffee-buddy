@@ -1,0 +1,59 @@
+@use 'variables' as *;
+
+@mixin mobil {
+  @media screen and (max-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop-breakpoint) {
+    @content;
+  }
+}
+
+@mixin padding-bottom5 {
+  padding-bottom: $percent-padding-margin5;
+
+}
+
+@mixin padding-top5 {
+  padding-top: $percent-padding-margin5;
+
+}
+
+@mixin padding-left5 {
+  padding-left: $percent-padding-margin5;
+
+}
+
+@mixin padding-right5 {
+  padding-right: $percent-padding-margin5;
+
+}
+
+@mixin margin-bottom5 {
+  margin-bottom: $percent-padding-margin5;
+
+}
+
+@mixin margin-top5 {
+  margin-top: $percent-padding-margin5;
+
+}
+
+@mixin margin-left5 {
+  margin-left: $percent-padding-margin5;
+
+}
+
+@mixin margin-right5 {
+  margin-right: $percent-padding-margin5;
+
+}

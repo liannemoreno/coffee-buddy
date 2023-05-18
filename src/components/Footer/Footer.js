@@ -12,16 +12,16 @@ function Footer() {
         <section className="footer">
             <div className="footer__nav">
                 <Link className="link" to="/*">
-                    <img className="footer__nav--home" src={home} />
+                    <img className="footer__nav--home" src={home} alt="home logo"/>
                 </Link >
                 <Link className="link" to="/collections">
-                    <img className="footer__nav--collect" src={collections} />
+                    <img className="footer__nav--collect" src={collections} alt="collections logo"/>
                 </Link>
                 <Link className="link" to="/prepare">
-                    <img className="footer__nav--prep" src={prep} />
+                    <img className="footer__nav--prep" src={prep} alt="prepare logo" />
                 </Link>
                 <Link className="link" to="/collections">
-                    <img className="footer__nav--mug" src={mug} />
+                    <img className="footer__nav--mug" src={mug} alt="mug logo"/>
                 </Link>
             </div>
         </section>
