@@ -69,4 +69,6 @@ The web application is only intended to be for mobile. The screen size is 390 x 
 
 ![Start Page](./public/readme_images/shot.gif)
 
-![Collections Page](./public/readme_images/prep.png)
+![Collections Page](./public/readme_images/collect.png)
+
+![Brwing Page](./public/readme_images/prep.png)
