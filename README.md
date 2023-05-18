@@ -76,4 +76,5 @@ You can get to the collections page by clicking on the "home" icon and the "coll
 
 The brewing page shows you different techniques of brewing coffee. When you click on the image of the brewing technique, you will be taken to a page with a set of instructions on how to brew the coffee. 
 You can get to the bewing page by clicking on the "prepare" icon in the footer. 
+
 ![Brwing Page](./public/readme_images/prep.png)
