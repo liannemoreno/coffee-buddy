@@ -30,14 +30,14 @@ function BrewingType({ brewingData }) {
             <Header />
             <section className="brewing">
                 <a className="brewing__return--logo">
-                    <img className="brewing__return--logo" src={chevron} onClick={goBack} />
+                    <img className="brewing__return--logo" src={chevron} onClick={goBack} alt="chevron image"/>
                 </a>
                 <div className="brewing__type">
                     <p class className="brewing__type--name">
                         {filteredBrew.brewing_technique}
                     </p>
                     <div class className="brewing__type--hero">
-                        <img src={url + filteredBrew.image}></img>
+                        <img src={url + filteredBrew.image} alt="brew type icon"></img>
                     </div>
                 </div>
                 {specs.map(spec => (
